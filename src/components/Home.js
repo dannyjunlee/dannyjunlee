@@ -1,5 +1,6 @@
 import React from 'react';
 import profile from '../images/profile.png';
+import '../index.css';
 
 const Home = () => {
     return (
@@ -12,7 +13,7 @@ const Home = () => {
                         alt='Profile'
                     />
                 </div>
-                <div className='col-lg-5'>
+                <div className='col-lg-12'>
                     <h1 className='font-weight-light'>Home</h1>
                     <p>
                         Welcome to Danny Lee's Web Development Portfolio. Danny Lee joined the Columbia Coding Boot Camp in September of 2022 to learn essential skills in web development. He is skilled in HTML, CSS, and JavaScript. Danny has developed projects, both individually and as part of a group, related to JavaScript-related technologies such as Handlebars, React, MongoDB, and more.

@@ -4,15 +4,6 @@
 
 This application is my personal portfolio. It was created via React, utilizing Bootstrap. As an aspiring web developer, I created this portfolio to not only display information about me and the work I have accomplished, but also do it through a technology I learned recently: ReactJS. This portfolio will serve as a supplement to my resume and hopefully help distinguish me from other developers in my job search.
 
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
 ## Installation
 
 While this project is not intended to be installed or worked on by other developers, the way to install would be to first run `npm i`, then `npm start` for a local server version or `npm run deploy` for a deployed version.

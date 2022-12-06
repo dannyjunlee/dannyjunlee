@@ -1,6 +1,10 @@
 import React from 'react';
-import lucarios from '../../images/lucarios.jpg';
 import '../../index.css';
+import lucarios from '../../images/lucarios.jpg';
+import alphahub from '../../images/alphahub.png';
+import pwGen from '../../images/random-password-generator.png';
+import weather from '../../images/weather-dashboard.png';
+import planner from '../../images/work-day-scheduler.png';
 
 const Projects = () => {
   return (
@@ -32,8 +36,8 @@ const Projects = () => {
               href='https://dannyjunlee.github.io/alpha-hub/'
               target='_blank'
               className='img-fluid rounded mb-4 mb-lg-0'
-              src='https://static.wikia.nocookie.net/rezero/images/0/02/Rem_Anime.png/revision/latest?cb=20210916151323'
-              alt=''
+              src={alphahub}
+              alt='Alpha Hub'
             />
           </div>
           <div className='col-lg-5'>
@@ -51,8 +55,8 @@ const Projects = () => {
               href='https://dannyjunlee.github.io/weather-dashboard/'
               target='_blank'
               className='img-fluid rounded mb-4 mb-lg-0'
-              src='https://static.wikia.nocookie.net/rezero/images/0/02/Rem_Anime.png/revision/latest?cb=20210916151323'
-              alt=''
+              src={weather}
+              alt='Weather Dashboard'
             />
           </div>
           <div className='col-lg-5'>
@@ -70,8 +74,8 @@ const Projects = () => {
               href='https://dannyjunlee.github.io/daily-planner/'
               target='_blank'
               className='img-fluid rounded mb-4 mb-lg-0'
-              src='https://static.wikia.nocookie.net/rezero/images/0/02/Rem_Anime.png/revision/latest?cb=20210916151323'
-              alt=''
+              src={planner}
+              alt='Work Day Scheduler'
             />
           </div>
           <div className='col-lg-5'>
@@ -89,8 +93,8 @@ const Projects = () => {
               href='https://dannyjunlee.github.io/random-password-generator/'
               target='_blank'
               className='img-fluid rounded mb-4 mb-lg-0'
-              src='https://static.wikia.nocookie.net/rezero/images/0/02/Rem_Anime.png/revision/latest?cb=20210916151323'
-              alt=''
+              src={pwGen}
+              alt='Random Password Generator'
             />
           </div>
           <div className='col-lg-5'>

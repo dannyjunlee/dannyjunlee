@@ -21,6 +21,7 @@ const Contact = () => {
                         <label for='userInput'>Message</label>
                         <textarea className='form-control' rows='3'></textarea>
                     </div>
+                    <button type='submit' className='btn btn-primary'>Submit</button>
                 </form>
             </div>
         </div>

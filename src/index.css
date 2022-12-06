@@ -28,6 +28,15 @@ code {
   height: auto;
   width: 30vw;
   margin-left: 10vw;
+  padding-right: 5vw;
+}
+
+.contact {
+  margin-top: 5vh;
+}
+
+.contact button {
+  margin-top: 5vh;
 }
 
 @media screen and (max-width: 1000px) {

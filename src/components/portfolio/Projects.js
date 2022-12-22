@@ -5,13 +5,33 @@ import alphahub from '../../images/alphahub.png';
 import pwGen from '../../images/random-password-generator.png';
 import weather from '../../images/weather-dashboard.png';
 import planner from '../../images/work-day-scheduler.png';
+import virtualEscapeRoom from '../../images/virtual-escape-room.png';
 
 const Projects = () => {
   return (
     <div className='home'>
       <div className='container'>
-        <div className='row align-items-center my-5'>
 
+        <div className='row align-items-center my-5'>
+          <div className='col-lg-7'>
+            <img
+              href='https://virtual-escape-room-mikeyboxx.herokuapp.com/'
+              target='_blank'
+              className='img-fluid rounded mb-4 mb-lg-0'
+              src={virtualEscapeRoom}
+              alt='Virtual Escape Room'
+            />
+          </div>
+          <div className='col-lg-5'>
+            <h1 className='font-weight-light'>
+              <a href='https://virtual-escape-room-mikeyboxx.herokuapp.com/' rel='noreferrer' target='_blank' className='prjTitle'>Virtual Escape Room</a></h1>
+            <p>
+              Virtual Escape Room is a group project where we collaborated in a team of 7 to create a MERN full stack application. We started with the user story of a shift in trend from physical to virtual experiences, including games, with the most prominent example being the metaverse and platforms like Roblox. Therefore, we created a platform of our own with the capability to host multiple puzzle and mystery games. We utilized the MERN stack to build the application. 2 of our group members were dedicated to building the story for our first game, including the graphics and storyline. The rest of the 5 members built the back-end database, front-end React pages, and the necessary functions and components to link everything together. We built the application so that the back-end models could be re-used for any similar puzzle-type game. The application is deployed on Heroku. Future development would incorporate sound into the games, improve upon visuals, allow for a more dynamic leaderboard and/or means to track progress, add not only games that we build but the capability for users to create their own games, and more.
+            </p>
+          </div>
+        </div>
+
+        <div className='row align-items-center my-5'>
           <div className='col-lg-7'>
             <img
               href='https://github.com/dannyjunlee/restaurant-menu'
